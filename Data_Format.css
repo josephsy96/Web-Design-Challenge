@@ -1,0 +1,65 @@
+/*
+=======================================
+Table of Contents:
+1. Universal Elements
+2.
+=======================================
+*/
+
+/*
+=======================================
+1. Universal Elements
+=======================================
+*/
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background: url(spf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: initial;
+}
+
+.btn-outline-primary{
+    font-size: 25px;
+    margin: 40px;
+    border-color: #284443 !important;
+    color: #284443;
+}
+
+.btn-outline-primary:hover {
+    background: #284443 !important;
+    color:  !important;
+}
+
+h1 {
+    position: relative;
+    color: #284443;
+    transition: 0.9s;
+    overflow: hidden;
+    margin-top: 30%;
+    font-size: 50px;
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+@media (max-width: 765px) {
+
+
+    .container h1 {
+        margin-top: 15%;
+        font-size: 30px;
+    }
+
+    .btn-outline-primary{
+        font-size: 15px;
+        margin: 10px;
+    }
+}
