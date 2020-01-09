@@ -24,10 +24,6 @@ body {
     color: initial;
 }
 
-.btn {
-    border: 2px solid;
-}
-
 .btn-outline-primary{
     font-size: 25px;
     margin: 40px;
@@ -67,7 +63,6 @@ h5 {
 a {
     color: inherit !important;
     text-decoration: none !important;
-
 }
 
 /*
@@ -82,7 +77,6 @@ a {
         background: url(spf.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: grey !important;
         z-index: 5;
     }
 }
