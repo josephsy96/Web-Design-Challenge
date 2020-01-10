@@ -42,6 +42,11 @@ a {
     font-size: 25px;
 }
 
+.tab {
+    text-indent: 40px;
+}
+
+
 /*
 =======================================
 3. Media Queries
@@ -52,7 +57,7 @@ a {
     body {
         background: url(joy.jpg);
         background-size: cover;
-        background-color: grey;
+        background-color: cadetblue;
         background-repeat: no-repeat;
         z-index: 5;
     }
@@ -62,7 +67,7 @@ a {
 
 
     body {
-        background: url(india.jpg);
+        background: url(LA.jpg);
         background-size: cover;
         background-color: black;
         background-repeat: no-repeat;
