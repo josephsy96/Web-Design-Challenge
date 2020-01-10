@@ -4,6 +4,7 @@ Table of Contents:
 1. Universal Elements
 2. Text Styles
 3. Media Queries
+4. Box Element
 =======================================
 */
 
@@ -107,4 +108,14 @@ a {
         font-size: 15px;
         margin: 10px;
     }
+}
+
+/*
+=======================================
+3. Box Element
+=======================================
+*/
+
+.container .col-md-1 .img-fluid {
+    height: 50px;
 }
