@@ -80,7 +80,7 @@ a {
 
 @media (min-width: 765px) {
     body {
-        background: url(spf.jpg);
+        background: url(us_horiz.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-color: grey !important;
@@ -92,7 +92,7 @@ a {
 
 
     body {
-        background: url(india.jpg);
+        background: url(us_vert.jpg);
         background-size: cover;
         background-color: black;
         background-repeat: no-repeat;
