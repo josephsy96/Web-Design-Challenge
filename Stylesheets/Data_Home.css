@@ -24,6 +24,12 @@ body {
     color: initial;
 }
 
+#body {
+    
+    margin-top: 38%;
+    margin-bottom: 10%
+}
+
 
 
 /*
@@ -46,6 +52,12 @@ a {
     text-indent: 40px;
 }
 
+#wel {
+    font-size: 150px;
+    color: #284443;
+    position: relative;
+    margin-top: 275px;
+}
 
 /*
 =======================================
