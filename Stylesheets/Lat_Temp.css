@@ -54,9 +54,9 @@ a {
 
 #wel {
     font-size: 100px;
-    color: #284443;
+    color: #FC9E03;
     position: relative;
-    margin-top: 310px;
+    margin-top: 300px;
 }
 
 /*
@@ -67,9 +67,8 @@ a {
 
 @media (min-width: 768px) {
     body {
-        background: url(joy.jpg);
+        background: url(mirror.jpg);
         background-size: cover;
-        width: 100%;
         background-color: cadetblue;
         background-repeat: no-repeat;
         z-index: 5;
