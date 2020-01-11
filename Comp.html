@@ -4,7 +4,7 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-            <link rel="stylesheet" type="text/css" href="Stylesheets/Lat_Humid.css">
+            <link rel="stylesheet" type="text/css" href="Stylesheets/Lat_Wind.css">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&display=swap">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
 
@@ -14,12 +14,10 @@
  
 
             <title>
-                Visualization | Latitude vs Humidity
+                Visualization | Comparison
             </title>
         </head>
-        <!-- Landing Page Contents -->
         <body>
-            <!-- Navigation Bar -->
             <header>
                 <nav class="navbar navbar-expand navbar-light bg-light">
                     <img src="Stylesheets/Shop.png" alt="site logo" width="50" class="mx-1">
@@ -33,7 +31,7 @@
                             <a class="nav-link" href="Data_Home.html">Home</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="Comp.html">Comparison</a>
+                            <a class="nav-link disabled" href="#">Comparison</a>
                         </li>
                         <li class="nav-item dropdown mr-0 px-2">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,7 +40,7 @@
                             <!-- Dropdown Menu -->
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="Lat_Temp.html" target="_blank">Latitude vs Max Temperature</a>
-                                <a class="dropdown-item disabled" href="#">Latitude vs Humidity</a>
+                                <a class="dropdown-item" href="Lat_Humid.html" target="_blank">Latitude vs Humidity</a>
                                 <a class="dropdown-item" href="Lat_Cloud.html" target="_blank">Latitude vs Cloudiness</a>
                                 <a class="dropdown-item" href="Lat_Wind.html" target="_blank">Latitude vs Wind Speed</a>
                                 <div class="dropdown-divider"></div>
@@ -53,41 +51,31 @@
                     </div>
                 </nav>
             </header>
-            <!-- Content -->
-            <div class="container">
-                <div class="text-center mt-5">
-                    <h1 id="wel">
-                        Latitude vs. Humidity
-                    </h1>
-                </div>    
-                <div class="row shadow rounded bg-light" id="body">
-                        <div class="col-md-12 mt-3 ml-2">
-                            <h1 id="c">Humidity Summary</h1>
-                        </div>
-                        <div class="pull-left mx-1">
-                            <img src="Resources/assets/images/Fig2.png" class="img-fluid ml-3 mt-3 shadow" id="img" width="500" alt="City vs Latitude"/>
-                        </div>
-                        <div class="col-md-6 ml-4 mt-4 mb-5" id="med">
-                            <p class="tab">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque?
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum perferendis voluptates error ullam placeat repellendus. Repellendus error repellat veritatis recusandae voluptates earum rerum consectetur itaque, ipsam nihil. Alias, nemo.
-                            </p>
-                            <p class="tab">   
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dolorum perferendis voluptates error ullam placeat repellendus. Repellendus error repellat veritatis recusandae voluptates earum rerum consectetur itaque, ipsam nihil. Alias, nemo.
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque?
-                                
-                            </p>
-                        </div>
+            <div class=container>
+                <div class="row shadow rounded bg-dark mt-5">
+                    <div class="col-md-12 mt-3 ml-2 mb-3">
+                        <h1 class="text-center" style="color: white;">Comparison</h1>
+                    </div>
+                    <div class="text-center">
+                        <a href="Lat_Temp.html">
+                            <img src="Resources/assets/images/Fig1.png" class="img-fluid col-lg-5 col-sm-4 mb-4" width='100'>
+                        </a>
+                        <a href="Lat_Humid.html">
+                            <img src="Resources/assets/images/Fig2.png" class="img-fluid col-lg-5 col-sm-4 mb-4" width='100'>
+                        </a>
+                        <a href="Lat_Cloud.html">
+                            <img src="Resources/assets/images/Fig3.png" class="img-fluid col-lg-5 col-sm-4 mb-4" width='100'>
+                        </a>
+                        <a href="Lat_Wind.html">
+                            <img src="Resources/assets/images/Fig4.png" class="img-fluid col-lg-5 col-sm-4 mb-4" width='100'>
+                        </a>
+                    </div>                    
                 </div>
             </div>
-            </div>
-            <div>
-                <nav class="navbar sticky-bottom bg-dark">
+            <div class="">
+                <nav class="navbar sticky-bottom bg-dark mt-3">
                     <a class="navbar-brand" style="color: white; font-size: 15px;">@Copyright Joe Yi</a>
                 </nav>
             </div>
-   
         
-
-
         </body>

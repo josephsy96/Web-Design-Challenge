@@ -48,8 +48,13 @@ a {
     font-size: 25px;
 }
 
+#c {
+    color: #284443 !important;
+}
+
 .tab {
     text-indent: 40px;
+    color: #284443;
 }
 
 #wel {
