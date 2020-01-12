@@ -74,6 +74,7 @@ a {
     body {
         background: url(joy.jpg);
         background-size: cover;
+        background-position: center;
         width: 100%;
         background-color: cadetblue;
         background-repeat: no-repeat;
