@@ -1,0 +1,122 @@
+/*
+=======================================
+Table of Contents:
+1. Universal Elements
+2. Text Styles
+3. Media Queries
+=======================================
+*/
+
+/*
+=======================================
+1. Universal Elements
+=======================================
+*/
+
+* {
+    font-family: 'Oswald', sans-serif;    
+}
+
+
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: initial;
+}
+
+#body {
+    
+    margin-top: 38%;
+    margin-bottom: 10%
+}
+
+
+
+/*
+=======================================
+2. Text Styles
+=======================================
+*/
+
+.navbar .navbar-brand {
+    font-size: 35px;
+    transition: 0.9s;
+    overflow: hidden;
+}
+
+a {
+    font-size: 25px;
+}
+
+#c {
+    color: #284443 !important;
+}
+
+.tab {
+    text-indent: 40px;
+    color: #284443;
+}
+
+#wel {
+    font-size: 100px;
+    color: white;
+    position: relative;
+    margin-top: 310px;
+}
+
+/*
+=======================================
+3. Media Queries
+=======================================
+*/
+
+@media (min-width: 789px) {
+
+    body {
+        background: url(joy.jpg);
+        background-size: contain;
+        position: relative ;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        background-repeat: no-repeat;   
+        z-index: -5;
+    }
+    
+
+    #mob {
+        position: relative;
+        margin-top: 20% !important;
+    }
+}
+
+@media (max-width: 788px) {
+
+
+    body {
+        background: url(LA.jpg);
+        background-size: contain;
+        background-color: black;
+        background-repeat: no-repeat;
+        z-index: 5;
+    }
+
+    #img {
+        width: 300px;
+        position: relative;
+    }
+
+    #med {
+        font-size: 15px;
+    }
+
+
+    #wel {
+        margin-top: 25%;
+        font-size: 50px;
+        color: white;
+    }
+
+}
